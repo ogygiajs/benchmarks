@@ -1,8 +1,8 @@
 {
   "meta": {
-    "ogygia": "0.13.2-next.260513b",
-    "spec": "https://pkg.pr.new/ogygia@260513b",
-    "sha": "260513b8789e533b47bfc0a90eac28f3d8475499",
+    "ogygia": "0.13.2-next.cf48d2f",
+    "spec": "https://pkg.pr.new/ogygia@cf48d2f",
+    "sha": "cf48d2f648e8d2af992b38dca50055228468a3c7",
     "mode": "main",
     "scope": "full",
     "frameworks": [
@@ -15,11 +15,11 @@
     ],
     "passes": 3,
     "runner": {
-      "cpu": "AMD EPYC 9V74 80-Core Processor",
+      "cpu": "AMD EPYC 7763 64-Core Processor",
       "cores": 4,
       "memGb": 16
     },
-    "runAt": "2026-11-14T20:03:57.633Z",
+    "runAt": "2026-11-14T20:42:45.465Z",
     "scenarioPasses": 3,
     "scenarios": [
       "blog",
@@ -53,63 +53,63 @@
           "post": "small",
           "words": 8800,
           "jsRaw": 144565,
-          "jsBr": 48307,
-          "htmlRaw": 57431,
-          "htmlBr": 10878,
+          "jsBr": 48261,
+          "htmlRaw": 57436,
+          "htmlBr": 10881,
           "score": 100,
-          "lcp": 1051,
+          "lcp": 1052,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 83,
+          "evalMs": 111,
           "dom": 57
         },
         {
           "post": "medium",
           "words": 23000,
           "jsRaw": 144565,
-          "jsBr": 48307,
-          "htmlRaw": 143453,
-          "htmlBr": 13126,
-          "score": 100,
-          "lcp": 1503,
+          "jsBr": 48261,
+          "htmlRaw": 143458,
+          "htmlBr": 13143,
+          "score": 95,
+          "lcp": 2331,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 86,
+          "evalMs": 112,
           "dom": 110
         },
         {
           "post": "large",
           "words": 71000,
           "jsRaw": 144565,
-          "jsBr": 48307,
-          "htmlRaw": 432900,
-          "htmlBr": 13771,
+          "jsBr": 48261,
+          "htmlRaw": 432905,
+          "htmlBr": 13772,
           "score": 91,
-          "lcp": 2851,
+          "lcp": 2853,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 87,
+          "evalMs": 115,
           "dom": 290
         }
       ],
       "avg": {
-        "score": 97,
-        "lcp": 1802,
+        "score": 95,
+        "lcp": 2079,
         "cls": 0,
         "tbt": 0,
-        "evalMs": 86,
+        "evalMs": 113,
         "dom": 152
       },
       "samples": {
         "score": [
+          97,
           95,
-          96,
-          97
+          95
         ],
         "lcp": [
-          2102,
-          2065,
-          1802
+          1804,
+          2345,
+          2093
         ],
         "cls": [
           0,
@@ -122,9 +122,9 @@
           0
         ],
         "evalMs": [
-          98,
-          83,
-          84
+          125,
+          114,
+          109
         ],
         "dom": [
           152,
@@ -140,52 +140,52 @@
         {
           "post": "small",
           "words": 8800,
-          "jsRaw": 121568,
-          "jsBr": 34713,
-          "htmlRaw": 52905,
+          "jsRaw": 121572,
+          "jsBr": 34723,
+          "htmlRaw": 52906,
           "htmlBr": 10289,
           "score": 100,
-          "lcp": 1051,
+          "lcp": 1052,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 51,
+          "evalMs": 64,
           "dom": 38
         },
         {
           "post": "medium",
           "words": 23000,
-          "jsRaw": 204259,
-          "jsBr": 36859,
-          "htmlRaw": 135594,
-          "htmlBr": 12460,
+          "jsRaw": 204263,
+          "jsBr": 36869,
+          "htmlRaw": 135595,
+          "htmlBr": 12476,
           "score": 100,
-          "lcp": 1354,
+          "lcp": 1353,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 49,
+          "evalMs": 61,
           "dom": 73
         },
         {
           "post": "large",
           "words": 71000,
-          "jsRaw": 482666,
-          "jsBr": 37142,
-          "htmlRaw": 414001,
-          "htmlBr": 12739,
-          "score": 91,
-          "lcp": 2852,
+          "jsRaw": 482670,
+          "jsBr": 37152,
+          "htmlRaw": 414002,
+          "htmlBr": 12745,
+          "score": 90,
+          "lcp": 2863,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 49,
+          "evalMs": 65,
           "dom": 193
         }
       ],
       "avg": {
         "score": 97,
-        "lcp": 1752,
+        "lcp": 1756,
         "cls": 0,
         "tbt": 0,
-        "evalMs": 50,
+        "evalMs": 63,
         "dom": 101
       },
       "samples": {
@@ -195,9 +195,9 @@
           97
         ],
         "lcp": [
-          2103,
-          1752,
-          1752
+          1757,
+          1757,
+          1754
         ],
         "cls": [
           0,
@@ -210,9 +210,9 @@
           0
         ],
         "evalMs": [
-          56,
-          49,
-          48
+          66,
+          64,
+          61
         ],
         "dom": [
           101,
@@ -236,7 +236,7 @@
           "lcp": 1051,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 29,
+          "evalMs": 39,
           "dom": 43
         },
         {
@@ -247,10 +247,10 @@
           "htmlRaw": 141350,
           "htmlBr": 14189,
           "score": 100,
-          "lcp": 1502,
+          "lcp": 1501,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 39,
+          "evalMs": 36,
           "dom": 78
         },
         {
@@ -261,19 +261,19 @@
           "htmlRaw": 420717,
           "htmlBr": 14445,
           "score": 91,
-          "lcp": 2851,
+          "lcp": 2852,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 31,
+          "evalMs": 37,
           "dom": 198
         }
       ],
       "avg": {
         "score": 97,
-        "lcp": 1801,
+        "lcp": 1802,
         "cls": 0,
         "tbt": 0,
-        "evalMs": 33,
+        "evalMs": 38,
         "dom": 106
       },
       "samples": {
@@ -283,9 +283,9 @@
           97
         ],
         "lcp": [
-          1801,
-          1801,
-          1801
+          1802,
+          1802,
+          1809
         ],
         "cls": [
           0,
@@ -298,9 +298,9 @@
           0
         ],
         "evalMs": [
-          34,
-          30,
-          33
+          38,
+          37,
+          38
         ],
         "dom": [
           106,
@@ -320,11 +320,11 @@
           "jsBr": 16009,
           "htmlRaw": 53605,
           "htmlBr": 10217,
-          "score": 99,
-          "lcp": 1669,
+          "score": 100,
+          "lcp": 1052,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 24,
+          "evalMs": 32,
           "dom": 46
         },
         {
@@ -334,11 +334,11 @@
           "jsBr": 16009,
           "htmlRaw": 136583,
           "htmlBr": 12396,
-          "score": 100,
-          "lcp": 1502,
+          "score": 97,
+          "lcp": 2142,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 24,
+          "evalMs": 32,
           "dom": 81
         },
         {
@@ -352,28 +352,28 @@
           "lcp": 2852,
           "cls": 0,
           "tbt": 0,
-          "evalMs": 26,
+          "evalMs": 31,
           "dom": 201
         }
       ],
       "avg": {
-        "score": 97,
-        "lcp": 2007,
+        "score": 96,
+        "lcp": 2015,
         "cls": 0,
         "tbt": 0,
-        "evalMs": 25,
+        "evalMs": 31,
         "dom": 109
       },
       "samples": {
         "score": [
           97,
           96,
-          97
+          96
         ],
         "lcp": [
-          2008,
-          2218,
-          1802
+          1801,
+          2016,
+          2222
         ],
         "cls": [
           0,
@@ -386,9 +386,9 @@
           0
         ],
         "evalMs": [
-          26,
-          24,
-          25
+          31,
+          32,
+          31
         ],
         "dom": [
           109,
@@ -415,60 +415,60 @@
           "approach": "islands (svelte 5)",
           "served": "static",
           "metrics": {
-            "jsBr:small": 48307,
-            "htmlBr:small": 10878,
-            "jsBr:medium": 48307,
-            "htmlBr:medium": 13126,
-            "jsBr:large": 48307,
-            "htmlBr:large": 13771,
-            "jsBr": 48307,
-            "htmlBr": 12592,
+            "jsBr:small": 48261,
+            "htmlBr:small": 10881,
+            "jsBr:medium": 48261,
+            "htmlBr:medium": 13143,
+            "jsBr:large": 48261,
+            "htmlBr:large": 13772,
+            "jsBr": 48261,
+            "htmlBr": 12599,
             "inp:counter": 16,
-            "resp:counter": 2.2,
+            "resp:counter": 2.7,
             "inp": 16,
-            "resp": 2.2,
-            "navMs": 225.7,
-            "visitBr": 187292,
-            "heapMb": 2.343,
+            "resp": 2.7,
+            "navMs": 297,
+            "visitBr": 187175,
+            "heapMb": 2.349,
             "locCode": 51,
             "locConfig": 38,
             "loc": 89
           },
           "samples": {
             "inp:counter": [
-              24,
+              32,
               16,
               16
             ],
             "resp:counter": [
-              5.2,
-              1.5,
-              2.2
+              2.9,
+              2,
+              2.7
             ],
             "inp": [
-              24,
+              32,
               16,
               16
             ],
             "resp": [
-              5.2,
-              1.5,
-              2.2
+              2.9,
+              2,
+              2.7
             ],
             "navMs": [
-              269.4,
-              218.7,
-              225.7
+              317.3,
+              297,
+              295.9
             ],
             "visitBr": [
-              187292,
-              187292,
-              187292
+              187175,
+              187175,
+              187175
             ],
             "heapMb": [
               2.348,
-              2.343,
-              2.343
+              2.349,
+              2.35
             ]
           }
         },
@@ -477,20 +477,20 @@
           "approach": "whole-page (svelte 5)",
           "served": "static",
           "metrics": {
-            "jsBr:small": 34713,
+            "jsBr:small": 34723,
             "htmlBr:small": 10289,
-            "jsBr:medium": 36859,
-            "htmlBr:medium": 12460,
-            "jsBr:large": 37142,
-            "htmlBr:large": 12739,
-            "jsBr": 36238,
-            "htmlBr": 11829,
+            "jsBr:medium": 36869,
+            "htmlBr:medium": 12476,
+            "jsBr:large": 37152,
+            "htmlBr:large": 12745,
+            "jsBr": 36248,
+            "htmlBr": 11837,
             "inp:counter": 16,
-            "resp:counter": 2.2,
+            "resp:counter": 3.5,
             "inp": 16,
-            "resp": 2.2,
-            "navMs": 214.4,
-            "visitBr": 98574,
+            "resp": 3.5,
+            "navMs": 232.3,
+            "visitBr": 98600,
             "heapMb": 2.25,
             "locCode": 43,
             "locConfig": 33,
@@ -503,9 +503,9 @@
               16
             ],
             "resp:counter": [
-              2.2,
-              2.5,
-              1.5
+              4.4,
+              2.6,
+              3.5
             ],
             "inp": [
               16,
@@ -513,19 +513,19 @@
               16
             ],
             "resp": [
-              2.2,
-              2.5,
-              1.5
+              4.4,
+              2.6,
+              3.5
             ],
             "navMs": [
-              220.8,
-              214.4,
-              211.4
+              252.6,
+              232.3,
+              228.7
             ],
             "visitBr": [
-              98574,
-              98574,
-              98574
+              98600,
+              98600,
+              98600
             ],
             "heapMb": [
               2.25,
@@ -548,10 +548,10 @@
             "jsBr": 10830,
             "htmlBr": 13535,
             "inp:counter": 16,
-            "resp:counter": 1.9,
+            "resp:counter": 2.4,
             "inp": 16,
-            "resp": 1.9,
-            "navMs": 192.4,
+            "resp": 2.4,
+            "navMs": 215.7,
             "visitBr": 76980,
             "heapMb": 1.713,
             "locCode": 38,
@@ -565,9 +565,9 @@
               16
             ],
             "resp:counter": [
-              1.9,
-              1.9,
-              2.6
+              2.1,
+              2.4,
+              3.7
             ],
             "inp": [
               16,
@@ -575,14 +575,14 @@
               16
             ],
             "resp": [
-              1.9,
-              1.9,
-              2.6
+              2.1,
+              2.4,
+              3.7
             ],
             "navMs": [
-              192.4,
-              195.3,
-              161.2
+              215.7,
+              214.3,
+              218.8
             ],
             "visitBr": [
               76980,
@@ -610,10 +610,10 @@
             "jsBr": 16009,
             "htmlBr": 11794,
             "inp:counter": 16,
-            "resp:counter": 2,
+            "resp:counter": 3.6,
             "inp": 16,
-            "resp": 2,
-            "navMs": 204.4,
+            "resp": 3.6,
+            "navMs": 239.1,
             "visitBr": 87641,
             "heapMb": 1.761,
             "locCode": 52,
@@ -627,9 +627,9 @@
               16
             ],
             "resp:counter": [
-              1.9,
-              2.1,
-              2
+              3.6,
+              2.8,
+              4.6
             ],
             "inp": [
               16,
@@ -637,14 +637,14 @@
               16
             ],
             "resp": [
-              1.9,
-              2.1,
-              2
+              3.6,
+              2.8,
+              4.6
             ],
             "navMs": [
-              204.4,
-              205.7,
-              189.4
+              246.5,
+              235.8,
+              239.1
             ],
             "visitBr": [
               87641,
@@ -652,7 +652,7 @@
               87641
             ],
             "heapMb": [
-              1.761,
+              1.762,
               1.761,
               1.761
             ]
@@ -676,28 +676,28 @@
           "approach": "prerendered, islands, ogygia router",
           "served": "static",
           "metrics": {
-            "jsBr:first": 57447,
-            "htmlBr:first": 4293,
-            "jsBr:mid": 57013,
-            "htmlBr:mid": 4329,
-            "jsBr": 57230,
-            "htmlBr": 4311,
+            "jsBr:first": 57450,
+            "htmlBr:first": 4303,
+            "jsBr:mid": 57016,
+            "htmlBr:mid": 4330,
+            "jsBr": 57233,
+            "htmlBr": 4317,
             "inp:tabs": 16,
-            "resp:tabs": 1.9,
+            "resp:tabs": 2.6,
             "inp:search": 16,
-            "resp:search": 1.8,
+            "resp:search": 1.4,
             "inp": 16,
-            "resp": 2,
-            "navMs": 167,
-            "visitBr": 104593,
-            "heapMb": 4.245,
+            "resp": 2.6,
+            "navMs": 170.2,
+            "visitBr": 104584,
+            "heapMb": 4.217,
             "score": 100,
-            "lcp": 905,
+            "lcp": 903,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 76.7,
-            "buildMs": 5373,
-            "outBytes": 18108504,
+            "evalMs": 94,
+            "buildMs": 6262,
+            "outBytes": 18109404,
             "locCode": 62,
             "locConfig": 16,
             "loc": 78
@@ -709,54 +709,54 @@
               16
             ],
             "resp:tabs": [
-              1.9,
-              2,
-              1.6
+              2.6,
+              2.5,
+              2.7
             ],
             "inp:search": [
               16,
-              16,
+              24,
               16
             ],
             "resp:search": [
-              2.2,
-              1.8,
-              1.6
+              1.3,
+              1.5,
+              1.4
             ],
             "inp": [
               16,
-              16,
+              24,
               16
             ],
             "resp": [
-              2.2,
-              2,
-              1.6
+              2.6,
+              2.5,
+              2.7
             ],
             "navMs": [
-              167,
-              162,
-              167.3
+              170.2,
+              186.7,
+              170.2
             ],
             "visitBr": [
-              104593,
-              104593,
-              104593
+              104584,
+              104584,
+              104584
             ],
             "heapMb": [
-              4.266,
+              4.217,
               4.245,
-              4.217
+              4.216
             ],
             "score": [
-              99,
+              100,
               100,
               100
             ],
             "lcp": [
-              1703.4,
-              905,
-              900.9
+              901.8,
+              903,
+              903.4
             ],
             "cls": [
               0,
@@ -769,9 +769,9 @@
               0
             ],
             "evalMs": [
-              71.1,
-              76.7,
-              84.5
+              94,
+              93.1,
+              97.5
             ]
           }
         },
@@ -780,27 +780,27 @@
           "approach": "prerendered, hydrated, Kit router",
           "served": "static",
           "metrics": {
-            "jsBr:first": 30540,
-            "htmlBr:first": 6076,
-            "jsBr:mid": 30540,
-            "htmlBr:mid": 6101,
-            "jsBr": 30540,
-            "htmlBr": 6089,
+            "jsBr:first": 30528,
+            "htmlBr:first": 6090,
+            "jsBr:mid": 30528,
+            "htmlBr:mid": 6099,
+            "jsBr": 30528,
+            "htmlBr": 6095,
             "inp:tabs": 16,
-            "resp:tabs": 2.4,
+            "resp:tabs": 2.6,
             "inp:search": 16,
-            "resp:search": 1.8,
+            "resp:search": 1.7,
             "inp": 16,
-            "resp": 2.4,
-            "navMs": 127.2,
-            "visitBr": 71949,
-            "heapMb": 3.559,
+            "resp": 2.6,
+            "navMs": 129.2,
+            "visitBr": 71935,
+            "heapMb": 3.558,
             "score": 100,
-            "lcp": 1052.2,
+            "lcp": 1058,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 94.4,
-            "buildMs": 3995,
+            "evalMs": 128.4,
+            "buildMs": 4826,
             "outBytes": 24837851,
             "locCode": 63,
             "locConfig": 14,
@@ -813,9 +813,9 @@
               16
             ],
             "resp:tabs": [
+              3.8,
               2,
-              2.4,
-              2.9
+              2.6
             ],
             "inp:search": [
               16,
@@ -823,9 +823,9 @@
               16
             ],
             "resp:search": [
-              1.8,
-              1.6,
-              3.1
+              1.3,
+              2,
+              1.7
             ],
             "inp": [
               16,
@@ -833,24 +833,24 @@
               16
             ],
             "resp": [
+              3.8,
               2,
-              2.4,
-              3.1
+              2.6
             ],
             "navMs": [
-              121.9,
-              129.2,
-              127.2
+              130.8,
+              128.2,
+              129.2
             ],
             "visitBr": [
-              71949,
-              71949,
-              71949
+              71935,
+              71935,
+              71935
             ],
             "heapMb": [
-              3.557,
               3.559,
-              3.559
+              3.558,
+              3.558
             ],
             "score": [
               100,
@@ -858,9 +858,9 @@
               100
             ],
             "lcp": [
-              1052.2,
-              1051.7,
-              1055.1
+              1062,
+              1052.7,
+              1058
             ],
             "cls": [
               0,
@@ -873,9 +873,9 @@
               0
             ],
             "evalMs": [
-              91.3,
-              118.7,
-              94.4
+              128.7,
+              117.1,
+              128.4
             ]
           }
         },
@@ -891,20 +891,20 @@
             "jsBr": 14559,
             "htmlBr": 5864,
             "inp:tabs": 16,
-            "resp:tabs": 3.4,
+            "resp:tabs": 2.2,
             "inp:search": 16,
-            "resp:search": 1.5,
+            "resp:search": 1.6,
             "inp": 16,
-            "resp": 3.4,
-            "navMs": 212.5,
+            "resp": 2.2,
+            "navMs": 258.4,
             "visitBr": 158615,
             "heapMb": 1.755,
             "score": 100,
-            "lcp": 901.1,
+            "lcp": 901.2,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 31.7,
-            "buildMs": 2179,
+            "evalMs": 39.5,
+            "buildMs": 2422,
             "outBytes": 11147239,
             "locCode": 50,
             "locConfig": 9,
@@ -917,9 +917,9 @@
               16
             ],
             "resp:tabs": [
-              3.4,
-              3.8,
-              1.7
+              2.2,
+              2.1,
+              4.6
             ],
             "inp:search": [
               16,
@@ -927,9 +927,9 @@
               16
             ],
             "resp:search": [
-              1.5,
               1.6,
-              1.1
+              2,
+              1.5
             ],
             "inp": [
               16,
@@ -937,14 +937,14 @@
               16
             ],
             "resp": [
-              3.4,
-              3.8,
-              1.7
+              2.2,
+              2.1,
+              4.6
             ],
             "navMs": [
-              212.5,
-              207.9,
-              213.1
+              260.6,
+              258.4,
+              252.3
             ],
             "visitBr": [
               158615,
@@ -962,9 +962,9 @@
               100
             ],
             "lcp": [
-              900.8,
               901.1,
-              901.2
+              901.2,
+              902
             ],
             "cls": [
               0,
@@ -977,9 +977,9 @@
               0
             ],
             "evalMs": [
-              31.1,
-              33.7,
-              31.7
+              38.5,
+              47.3,
+              39.5
             ]
           }
         },
@@ -995,20 +995,20 @@
             "jsBr": 20081,
             "htmlBr": 4094,
             "inp:tabs": 16,
-            "resp:tabs": 1.7,
+            "resp:tabs": 2.4,
             "inp:search": 16,
-            "resp:search": 1.8,
+            "resp:search": 2,
             "inp": 16,
-            "resp": 1.8,
-            "navMs": 211.2,
+            "resp": 2.4,
+            "navMs": 234.4,
             "visitBr": 184868,
             "heapMb": 1.799,
             "score": 100,
-            "lcp": 1522.5,
+            "lcp": 911.5,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 33,
-            "buildMs": 359,
+            "evalMs": 41.3,
+            "buildMs": 457,
             "outBytes": 62749,
             "locCode": 62,
             "locConfig": 16,
@@ -1021,9 +1021,9 @@
               16
             ],
             "resp:tabs": [
-              1.7,
-              4,
-              1.5
+              2.6,
+              2.1,
+              2.4
             ],
             "inp:search": [
               16,
@@ -1031,9 +1031,9 @@
               16
             ],
             "resp:search": [
-              1.5,
-              3.3,
-              1.8
+              2,
+              2.3,
+              1.7
             ],
             "inp": [
               16,
@@ -1041,14 +1041,14 @@
               16
             ],
             "resp": [
-              1.7,
-              4,
-              1.8
+              2.6,
+              2.3,
+              2.4
             ],
             "navMs": [
-              202.6,
-              211.2,
-              214
+              252.6,
+              224.9,
+              234.4
             ],
             "visitBr": [
               184868,
@@ -1066,9 +1066,9 @@
               100
             ],
             "lcp": [
-              901.7,
-              1522.9,
-              1522.5
+              900.7,
+              1528.6,
+              911.5
             ],
             "cls": [
               0,
@@ -1081,9 +1081,9 @@
               0
             ],
             "evalMs": [
-              38.4,
-              32.5,
-              33
+              42.7,
+              40.7,
+              41.3
             ]
           }
         },
@@ -1099,20 +1099,20 @@
             "jsBr": 39937,
             "htmlBr": 4270,
             "inp:tabs": 16,
-            "resp:tabs": 4.4,
+            "resp:tabs": 2.3,
             "inp:search": 16,
-            "resp:search": 1.6,
+            "resp:search": 2.1,
             "inp": 16,
-            "resp": 4.4,
-            "navMs": 106.8,
+            "resp": 2.3,
+            "navMs": 116.3,
             "visitBr": 69881,
-            "heapMb": 4.079,
+            "heapMb": 4.076,
             "score": 100,
-            "lcp": 901.5,
+            "lcp": 904.1,
             "cls": 0,
-            "tbt": 0,
-            "evalMs": 91.4,
-            "buildMs": 1720,
+            "tbt": 6.5,
+            "evalMs": 127,
+            "buildMs": 2107,
             "outBytes": 13221134,
             "locCode": 55,
             "locConfig": 6,
@@ -1125,34 +1125,34 @@
               16
             ],
             "resp:tabs": [
-              4.4,
-              4.4,
-              2.2
+              2.3,
+              2.1,
+              2.7
             ],
             "inp:search": [
-              16,
+              24,
               16,
               16
             ],
             "resp:search": [
-              1.6,
               1.8,
-              1.2
+              2.1,
+              2.1
             ],
             "inp": [
-              16,
+              24,
               16,
               16
             ],
             "resp": [
-              4.4,
-              4.4,
-              2.2
+              2.3,
+              2.1,
+              2.7
             ],
             "navMs": [
-              105.6,
-              113.7,
-              106.8
+              116.3,
+              117.4,
+              110.1
             ],
             "visitBr": [
               69881,
@@ -1160,9 +1160,9 @@
               69881
             ],
             "heapMb": [
-              4.079,
-              4.079,
-              4.078
+              4.075,
+              4.076,
+              4.079
             ],
             "score": [
               100,
@@ -1170,9 +1170,9 @@
               100
             ],
             "lcp": [
-              901.1,
-              901.5,
-              902.3
+              904.1,
+              904.9,
+              903.3
             ],
             "cls": [
               0,
@@ -1180,14 +1180,14 @@
               0
             ],
             "tbt": [
-              0,
-              0,
-              0
+              5.5,
+              7,
+              6.5
             ],
             "evalMs": [
-              86.8,
-              91.4,
-              91.6
+              128.1,
+              127,
+              123.8
             ]
           }
         },
@@ -1203,20 +1203,20 @@
             "jsBr": 16633,
             "htmlBr": 141,
             "inp:tabs": 16,
-            "resp:tabs": 2.1,
+            "resp:tabs": 2.5,
             "inp:search": 16,
-            "resp:search": 1.4,
+            "resp:search": 1.6,
             "inp": 16,
-            "resp": 2.1,
-            "navMs": 94.3,
+            "resp": 2.5,
+            "navMs": 99.5,
             "visitBr": 33195,
             "heapMb": 3.031,
             "score": 100,
-            "lcp": 1208.2,
+            "lcp": 1210,
             "cls": 0,
-            "tbt": 0,
-            "evalMs": 52.1,
-            "buildMs": 637,
+            "tbt": 4,
+            "evalMs": 68.2,
+            "buildMs": 810,
             "outBytes": 62596,
             "locCode": 82,
             "locConfig": 5,
@@ -1229,9 +1229,9 @@
               16
             ],
             "resp:tabs": [
-              4.2,
-              2.1,
-              1.8
+              3.5,
+              2.5,
+              2.5
             ],
             "inp:search": [
               16,
@@ -1239,9 +1239,9 @@
               16
             ],
             "resp:search": [
-              0.9,
-              1.4,
-              2
+              1.2,
+              1.9,
+              1.6
             ],
             "inp": [
               16,
@@ -1249,14 +1249,14 @@
               16
             ],
             "resp": [
-              4.2,
-              2.1,
-              2
+              3.5,
+              2.5,
+              2.5
             ],
             "navMs": [
-              95,
-              94.3,
-              94.1
+              93.6,
+              101.6,
+              99.5
             ],
             "visitBr": [
               33195,
@@ -1274,9 +1274,9 @@
               100
             ],
             "lcp": [
-              1208.2,
-              1209.1,
-              1207.8
+              751.2,
+              1210,
+              1211.1
             ],
             "cls": [
               0,
@@ -1285,13 +1285,13 @@
             ],
             "tbt": [
               0,
-              0,
-              0
+              4.5,
+              4
             ],
             "evalMs": [
-              49.6,
-              58.3,
-              52.1
+              63.1,
+              68.2,
+              68.3
             ]
           }
         }
@@ -1314,35 +1314,35 @@
           "approach": "server-rendered per request, islands",
           "served": "server",
           "metrics": {
-            "jsBr:home": 51886,
-            "htmlBr:home": 21846,
-            "jsBr": 51886,
-            "htmlBr": 21846,
+            "jsBr:home": 51896,
+            "htmlBr:home": 21882,
+            "jsBr": 51896,
+            "htmlBr": 21882,
             "inp:sort": 328,
-            "resp:sort": 4.1,
-            "inp:sort-toggle": 400,
-            "resp:sort-toggle": 2.9,
-            "inp:filter": 112,
-            "resp:filter": 1.8,
+            "resp:sort": 3.5,
+            "inp:sort-toggle": 464,
+            "resp:sort-toggle": 6.2,
+            "inp:filter": 120,
+            "resp:filter": 2.1,
             "inp:status": 16,
-            "resp:status": 1.5,
-            "updateMs": 2.3,
-            "inp": 400,
-            "resp": 4.7,
+            "resp:status": 3.2,
+            "updateMs": 3,
+            "inp": 464,
+            "resp": 8.7,
             "heapMb": 3.456,
-            "score": 95,
-            "lcp": 2428.9,
+            "score": 94,
+            "lcp": 2406.5,
             "cls": 0.013,
-            "tbt": 29.5,
-            "evalMs": 225.3,
-            "ttfb": 27.9,
-            "htmlMs": 28.6,
-            "p50": 251,
-            "p99": 604,
-            "vps": 35.6,
+            "tbt": 66.5,
+            "evalMs": 288.3,
+            "ttfb": 39.2,
+            "htmlMs": 39.7,
+            "p50": 340,
+            "p99": 697,
+            "vps": 26.2,
             "reqsPerView": 1,
-            "buildMs": 4765,
-            "outBytes": 410460,
+            "buildMs": 6223,
+            "outBytes": 410457,
             "locCode": 33,
             "locConfig": 16,
             "loc": 49
@@ -1350,33 +1350,33 @@
           "samples": {
             "inp:sort": [
               328,
-              296,
-              344
+              304,
+              384
             ],
             "resp:sort": [
-              3.5,
-              4.1,
-              5.9
+              8.7,
+              2.3,
+              3.5
             ],
             "inp:sort-toggle": [
-              376,
-              432,
-              400
+              472,
+              464,
+              416
             ],
             "resp:sort-toggle": [
-              4.7,
-              2.3,
-              2.9
+              6.2,
+              9.9,
+              1.8
             ],
             "inp:filter": [
               112,
-              104,
-              112
+              120,
+              120
             ],
             "resp:filter": [
-              1.9,
-              1.8,
-              1.8
+              2.1,
+              2.2,
+              1.6
             ],
             "inp:status": [
               16,
@@ -1384,39 +1384,39 @@
               16
             ],
             "resp:status": [
-              1.5,
-              1.1,
-              4.7
+              4.1,
+              2.4,
+              3.2
             ],
             "updateMs": [
-              2.1,
-              2.4,
-              2.3
+              3,
+              3.2,
+              2.4
             ],
             "inp": [
-              376,
-              432,
-              400
+              472,
+              464,
+              416
             ],
             "resp": [
-              4.7,
-              4.1,
-              5.9
+              8.7,
+              9.9,
+              3.5
             ],
             "heapMb": [
-              3.456,
               3.475,
+              3.455,
               3.456
             ],
             "score": [
-              89,
-              95,
+              94,
+              94,
               95
             ],
             "lcp": [
-              3307.4,
-              2424.5,
-              2428.9
+              2406.5,
+              2405.7,
+              2406.6
             ],
             "cls": [
               0.013,
@@ -1424,39 +1424,39 @@
               0.013
             ],
             "tbt": [
-              29.5,
-              26,
-              41
+              66.5,
+              79.5,
+              64
             ],
             "evalMs": [
-              207.5,
-              225.3,
-              228.4
+              293.8,
+              288.3,
+              270.8
             ],
             "ttfb": [
-              27.9,
-              27.9,
-              28.9
+              39.2,
+              39.2,
+              37.2
             ],
             "htmlMs": [
-              28.6,
-              28.6,
-              29.5
+              39.9,
+              39.7,
+              38
             ],
             "p50": [
-              248,
-              251,
-              251
+              340,
+              343,
+              340
             ],
             "p99": [
-              1241,
-              507,
-              604
+              1765,
+              689,
+              697
             ],
             "vps": [
-              34.4,
-              35.8,
-              35.6
+              24.2,
+              26.2,
+              26.2
             ],
             "reqsPerView": [
               1,
@@ -1470,69 +1470,69 @@
           "approach": "server-rendered per request, hydrated",
           "served": "server",
           "metrics": {
-            "jsBr:home": 31459,
-            "htmlBr:home": 21274,
-            "jsBr": 31459,
-            "htmlBr": 21274,
-            "inp:sort": 336,
-            "resp:sort": 6.1,
-            "inp:sort-toggle": 376,
-            "resp:sort-toggle": 4.4,
-            "inp:filter": 112,
-            "resp:filter": 2.4,
+            "jsBr:home": 31461,
+            "htmlBr:home": 21307,
+            "jsBr": 31461,
+            "htmlBr": 21307,
+            "inp:sort": 368,
+            "resp:sort": 6.3,
+            "inp:sort-toggle": 440,
+            "resp:sort-toggle": 2.5,
+            "inp:filter": 120,
+            "resp:filter": 1.5,
             "inp:status": 16,
-            "resp:status": 2.4,
+            "resp:status": 3.3,
             "updateMs": 2.6,
-            "inp": 376,
-            "resp": 6.1,
-            "heapMb": 3.07,
-            "score": 95,
-            "lcp": 2420.5,
+            "inp": 440,
+            "resp": 6.3,
+            "heapMb": 3.071,
+            "score": 94,
+            "lcp": 2445.2,
             "cls": 0.013,
-            "tbt": 22,
-            "evalMs": 207.1,
-            "ttfb": 26.9,
-            "htmlMs": 27.5,
-            "p50": 233,
-            "p99": 972,
-            "vps": 37.8,
+            "tbt": 50,
+            "evalMs": 269.1,
+            "ttfb": 35.8,
+            "htmlMs": 36.5,
+            "p50": 317,
+            "p99": 646,
+            "vps": 28,
             "reqsPerView": 1,
-            "buildMs": 3832,
-            "outBytes": 181692,
+            "buildMs": 4579,
+            "outBytes": 181697,
             "locCode": 35,
             "locConfig": 14,
             "loc": 49
           },
           "samples": {
             "inp:sort": [
-              328,
-              336,
-              336
+              376,
+              368,
+              352
             ],
             "resp:sort": [
-              5,
+              9.4,
               6.1,
-              6.7
+              6.3
             ],
             "inp:sort-toggle": [
-              376,
-              376,
-              384
+              456,
+              432,
+              440
             ],
             "resp:sort-toggle": [
+              2.5,
               4.4,
-              1.5,
-              5.7
+              2.4
             ],
             "inp:filter": [
-              104,
+              112,
               120,
-              112
+              120
             ],
             "resp:filter": [
-              2.3,
-              2.7,
-              2.4
+              1.2,
+              2.4,
+              1.5
             ],
             "inp:status": [
               16,
@@ -1540,39 +1540,39 @@
               16
             ],
             "resp:status": [
-              2.4,
-              2.5,
-              2.4
+              3.3,
+              2.9,
+              3.5
             ],
             "updateMs": [
-              2.6,
-              2.3,
-              2.8
+              2.5,
+              3.4,
+              2.6
             ],
             "inp": [
-              376,
-              376,
-              384
+              456,
+              432,
+              440
             ],
             "resp": [
-              5,
+              9.4,
               6.1,
-              6.7
+              6.3
             ],
             "heapMb": [
-              3.044,
+              3.071,
               3.07,
-              3.07
+              3.071
             ],
             "score": [
               95,
-              95,
-              95
+              94,
+              94
             ],
             "lcp": [
-              2424.8,
-              2419.1,
-              2420.5
+              2412.4,
+              2509.3,
+              2445.2
             ],
             "cls": [
               0.013,
@@ -1580,39 +1580,39 @@
               0.013
             ],
             "tbt": [
-              22,
-              18,
-              22
+              50,
+              50,
+              46
             ],
             "evalMs": [
-              206.4,
-              207.1,
-              214.4
+              277.2,
+              269.1,
+              268.6
             ],
             "ttfb": [
-              26.9,
-              26.1,
-              27.4
+              35.8,
+              35.7,
+              35.9
             ],
             "htmlMs": [
-              27.5,
-              26.4,
-              27.7
+              36.5,
+              36.1,
+              36.5
             ],
             "p50": [
-              233,
-              231,
-              235
+              316,
+              319,
+              317
             ],
             "p99": [
-              1214,
-              493,
-              972
+              1647,
+              643,
+              646
             ],
             "vps": [
-              36.4,
-              38.4,
-              37.8
+              26.4,
+              28,
+              28
             ],
             "reqsPerView": [
               1,
@@ -1630,30 +1630,30 @@
             "htmlBr:home": 24441,
             "jsBr": 14434,
             "htmlBr": 24441,
-            "inp:sort": 336,
-            "resp:sort": 7.6,
-            "inp:sort-toggle": 392,
-            "resp:sort-toggle": 1.8,
-            "inp:filter": 120,
-            "resp:filter": 2.4,
+            "inp:sort": 368,
+            "resp:sort": 6,
+            "inp:sort-toggle": 464,
+            "resp:sort-toggle": 2.5,
+            "inp:filter": 136,
+            "resp:filter": 1.2,
             "inp:status": 16,
-            "resp:status": 4.4,
-            "updateMs": 2.5,
-            "inp": 392,
-            "resp": 7.6,
-            "heapMb": 4.161,
-            "score": 81,
-            "lcp": 3951.5,
+            "resp:status": 3.5,
+            "updateMs": 2.9,
+            "inp": 464,
+            "resp": 6,
+            "heapMb": 4.148,
+            "score": 80,
+            "lcp": 3954.4,
             "cls": 0.013,
-            "tbt": 102,
-            "evalMs": 213.2,
-            "ttfb": 30.1,
-            "htmlMs": 30.7,
-            "p50": 300,
-            "p99": 683,
-            "vps": 32.2,
+            "tbt": 167.3,
+            "evalMs": 267.4,
+            "ttfb": 41.2,
+            "htmlMs": 42.1,
+            "p50": 412,
+            "p99": 819,
+            "vps": 23.8,
             "reqsPerView": 1,
-            "buildMs": 1592,
+            "buildMs": 2083,
             "outBytes": 41717,
             "locCode": 25,
             "locConfig": 11,
@@ -1661,34 +1661,34 @@
           },
           "samples": {
             "inp:sort": [
+              368,
               336,
-              336,
-              344
-            ],
-            "resp:sort": [
-              13.3,
-              7.6,
-              4.8
-            ],
-            "inp:sort-toggle": [
-              392,
-              392,
               400
             ],
+            "resp:sort": [
+              4.7,
+              10.2,
+              6
+            ],
+            "inp:sort-toggle": [
+              424,
+              472,
+              464
+            ],
             "resp:sort-toggle": [
-              1.3,
-              4.9,
-              1.8
+              3.4,
+              2.5,
+              2.4
             ],
             "inp:filter": [
-              120,
-              120,
+              136,
+              144,
               136
             ],
             "resp:filter": [
-              2.4,
-              1.8,
-              2.5
+              1.1,
+              1.2,
+              3.6
             ],
             "inp:status": [
               16,
@@ -1696,39 +1696,39 @@
               16
             ],
             "resp:status": [
-              4.6,
-              4.4,
-              2.9
+              3.5,
+              2.4,
+              5.4
             ],
             "updateMs": [
-              2.3,
-              2.5,
-              2.5
+              2.6,
+              2.9,
+              3.6
             ],
             "inp": [
-              392,
-              392,
-              400
+              424,
+              472,
+              464
             ],
             "resp": [
-              13.3,
-              7.6,
-              4.8
+              4.7,
+              10.2,
+              6
             ],
             "heapMb": [
               4.161,
-              4.162,
-              4.16
+              4.148,
+              4.14
             ],
             "score": [
-              85,
               80,
-              81
+              83,
+              79
             ],
             "lcp": [
-              3350.9,
-              3981.9,
-              3951.5
+              3954.4,
+              3351.5,
+              3987.1
             ],
             "cls": [
               0.013,
@@ -1736,39 +1736,39 @@
               0.013
             ],
             "tbt": [
-              102,
-              112.7,
-              60.5
+              160.4,
+              173,
+              167.3
             ],
             "evalMs": [
-              213.2,
-              238,
-              199.6
+              266.5,
+              267.4,
+              269.4
             ],
             "ttfb": [
-              30.1,
-              30,
-              30.8
+              41,
+              41.3,
+              41.2
             ],
             "htmlMs": [
-              30.7,
-              30.7,
-              31.8
+              41.9,
+              42.3,
+              42.1
             ],
             "p50": [
-              300,
-              295,
-              303
+              406,
+              412,
+              414
             ],
             "p99": [
-              1002,
-              657,
-              683
+              1338,
+              639,
+              819
             ],
             "vps": [
-              30.8,
-              33.2,
-              32.2
+              22.2,
+              23.8,
+              23.8
             ],
             "reqsPerView": [
               1,
@@ -1786,30 +1786,30 @@
             "htmlBr:home": 27287,
             "jsBr": 19968,
             "htmlBr": 27287,
-            "inp:sort": 304,
-            "resp:sort": 3.2,
-            "inp:sort-toggle": 424,
-            "resp:sort-toggle": 3,
-            "inp:filter": 112,
-            "resp:filter": 1.8,
+            "inp:sort": 312,
+            "resp:sort": 3.6,
+            "inp:sort-toggle": 496,
+            "resp:sort-toggle": 3.9,
+            "inp:filter": 120,
+            "resp:filter": 2.2,
             "inp:status": 16,
-            "resp:status": 3.2,
-            "updateMs": 4.7,
-            "inp": 424,
-            "resp": 4.1,
-            "heapMb": 2.874,
-            "score": 96,
-            "lcp": 2259.4,
+            "resp:status": 4.6,
+            "updateMs": 3.5,
+            "inp": 496,
+            "resp": 5,
+            "heapMb": 2.875,
+            "score": 95,
+            "lcp": 2289.5,
             "cls": 0.013,
-            "tbt": 59,
-            "evalMs": 162.5,
-            "ttfb": 18.6,
-            "htmlMs": 19,
-            "p50": 164,
-            "p99": 342,
-            "vps": 54.4,
+            "tbt": 97,
+            "evalMs": 211.1,
+            "ttfb": 24.9,
+            "htmlMs": 25.5,
+            "p50": 216,
+            "p99": 449,
+            "vps": 41.4,
             "reqsPerView": 1,
-            "buildMs": 365,
+            "buildMs": 465,
             "outBytes": 64563,
             "locCode": 39,
             "locConfig": 16,
@@ -1817,34 +1817,34 @@
           },
           "samples": {
             "inp:sort": [
-              304,
-              280,
-              320
+              328,
+              312,
+              304
             ],
             "resp:sort": [
-              4.1,
-              3.2,
-              3
+              3.4,
+              3.6,
+              4.2
             ],
             "inp:sort-toggle": [
-              424,
-              416,
-              456
+              504,
+              480,
+              496
             ],
             "resp:sort-toggle": [
-              3.2,
-              2.4,
-              3
+              5,
+              3.9,
+              2
             ],
             "inp:filter": [
-              112,
-              96,
-              120
+              120,
+              120,
+              128
             ],
             "resp:filter": [
-              1.8,
-              4.7,
-              1.8
+              2.3,
+              2.2,
+              1.4
             ],
             "inp:status": [
               16,
@@ -1852,39 +1852,39 @@
               16
             ],
             "resp:status": [
-              2.8,
-              4.5,
-              3.2
+              4.6,
+              5.2,
+              2.9
             ],
             "updateMs": [
-              5.3,
-              4.7,
-              3
+              3.5,
+              3.4,
+              3.9
             ],
             "inp": [
-              424,
-              416,
-              456
+              504,
+              480,
+              496
             ],
             "resp": [
-              4.1,
-              4.7,
-              3.2
+              5,
+              5.2,
+              4.2
             ],
             "heapMb": [
-              2.874,
-              2.87,
-              2.875
+              2.873,
+              2.875,
+              2.892
             ],
             "score": [
-              96,
-              96,
-              96
+              95,
+              95,
+              95
             ],
             "lcp": [
-              2257.3,
-              2259.4,
-              2272
+              2289.5,
+              2291.7,
+              2286.5
             ],
             "cls": [
               0.013,
@@ -1892,39 +1892,39 @@
               0.013
             ],
             "tbt": [
-              57,
-              59,
-              59
+              97,
+              94,
+              101
             ],
             "evalMs": [
-              159.1,
-              162.5,
-              171.2
+              210,
+              211.1,
+              219.3
             ],
             "ttfb": [
-              18.6,
-              18.2,
-              20.7
+              24.9,
+              25,
+              24.6
             ],
             "htmlMs": [
-              19,
-              18.8,
-              21.1
+              25.5,
+              25.6,
+              25
             ],
             "p50": [
-              159,
-              164,
-              174
+              217,
+              212,
+              216
             ],
             "p99": [
-              332,
-              342,
-              354
+              456,
+              428,
+              449
             ],
             "vps": [
-              54.4,
-              55.2,
-              51.4
+              39.8,
+              42.4,
+              41.4
             ],
             "reqsPerView": [
               1,
@@ -1942,30 +1942,30 @@
             "htmlBr:home": 21457,
             "jsBr": 38975,
             "htmlBr": 21457,
-            "inp:sort": 336,
-            "resp:sort": 8.9,
-            "inp:sort-toggle": 384,
-            "resp:sort-toggle": 2.2,
-            "inp:filter": 104,
-            "resp:filter": 1.9,
+            "inp:sort": 384,
+            "resp:sort": 15.4,
+            "inp:sort-toggle": 424,
+            "resp:sort-toggle": 2.5,
+            "inp:filter": 120,
+            "resp:filter": 2.1,
             "inp:status": 16,
-            "resp:status": 3.8,
-            "updateMs": 2.3,
-            "inp": 384,
-            "resp": 8.9,
+            "resp:status": 3,
+            "updateMs": 2.7,
+            "inp": 424,
+            "resp": 15.4,
             "heapMb": 3.314,
-            "score": 92,
-            "lcp": 2672.5,
+            "score": 93,
+            "lcp": 2535.3,
             "cls": 0,
-            "tbt": 53.5,
-            "evalMs": 193.4,
-            "ttfb": 27.8,
-            "htmlMs": 28.3,
-            "p50": 265,
-            "p99": 521,
-            "vps": 35.6,
+            "tbt": 132.5,
+            "evalMs": 277.3,
+            "ttfb": 37.4,
+            "htmlMs": 38.2,
+            "p50": 369,
+            "p99": 707,
+            "vps": 27,
             "reqsPerView": 1,
-            "buildMs": 1210,
+            "buildMs": 1530,
             "outBytes": 128016,
             "locCode": 38,
             "locConfig": 6,
@@ -1973,34 +1973,34 @@
           },
           "samples": {
             "inp:sort": [
-              336,
-              320,
-              368
-            ],
-            "resp:sort": [
-              5.2,
-              8.9,
-              9.1
-            ],
-            "inp:sort-toggle": [
               384,
               368,
-              408
+              384
+            ],
+            "resp:sort": [
+              16.5,
+              7.9,
+              15.4
+            ],
+            "inp:sort-toggle": [
+              424,
+              440,
+              424
             ],
             "resp:sort-toggle": [
-              2.2,
-              2.2,
-              2.2
+              3.8,
+              2.5,
+              2.3
             ],
             "inp:filter": [
-              104,
-              96,
-              128
+              120,
+              112,
+              120
             ],
             "resp:filter": [
-              1.9,
-              2.4,
-              1.4
+              2,
+              2.1,
+              2.8
             ],
             "inp:status": [
               16,
@@ -2008,39 +2008,39 @@
               16
             ],
             "resp:status": [
-              3.8,
-              2.8,
-              4.2
+              2.3,
+              3,
+              3.4
             ],
             "updateMs": [
-              2.5,
-              2.2,
-              2.3
+              2.7,
+              2.6,
+              3
             ],
             "inp": [
-              384,
-              368,
-              408
+              424,
+              440,
+              424
             ],
             "resp": [
-              5.2,
-              8.9,
-              9.1
+              16.5,
+              7.9,
+              15.4
             ],
             "heapMb": [
               3.314,
-              3.315,
+              3.314,
               3.314
             ],
             "score": [
-              92,
-              94,
-              83
+              93,
+              93,
+              93
             ],
             "lcp": [
-              2672.5,
-              2483.8,
-              3417.7
+              2560.6,
+              2433.7,
+              2535.3
             ],
             "cls": [
               0,
@@ -2048,39 +2048,39 @@
               0
             ],
             "tbt": [
-              53.5,
-              51,
-              128
+              132.5,
+              136,
+              112
             ],
             "evalMs": [
-              191.3,
-              193.4,
-              202.7
+              277.3,
+              278.5,
+              260.7
             ],
             "ttfb": [
-              27.8,
-              27.2,
-              29.1
+              39.1,
+              37.4,
+              37.2
             ],
             "htmlMs": [
-              28.3,
-              27.8,
-              29.7
+              40.3,
+              38.2,
+              37.7
             ],
             "p50": [
-              265,
-              264,
-              277
+              370,
+              369,
+              367
             ],
             "p99": [
-              697,
-              446,
-              521
+              1060,
+              618,
+              707
             ],
             "vps": [
-              35.4,
-              37.6,
-              35.6
+              25,
+              27,
+              27
             ],
             "reqsPerView": [
               1,
@@ -2098,24 +2098,24 @@
             "htmlBr:home": 155,
             "jsBr": 15440,
             "htmlBr": 155,
-            "inp:sort": 336,
-            "resp:sort": 6.8,
-            "inp:sort-toggle": 384,
-            "resp:sort-toggle": 1.7,
-            "inp:filter": 120,
-            "resp:filter": 1.8,
+            "inp:sort": 376,
+            "resp:sort": 7.6,
+            "inp:sort-toggle": 432,
+            "resp:sort-toggle": 1.4,
+            "inp:filter": 136,
+            "resp:filter": 1.9,
             "inp:status": 16,
-            "resp:status": 3.2,
+            "resp:status": 1.7,
             "updateMs": 2.4,
-            "inp": 384,
-            "resp": 6.8,
+            "inp": 432,
+            "resp": 7.6,
             "heapMb": 4.18,
-            "score": 99,
-            "lcp": 1209.2,
+            "score": 96,
+            "lcp": 751.1,
             "cls": 0.013,
-            "tbt": 115,
-            "evalMs": 190.1,
-            "buildMs": 608,
+            "tbt": 221,
+            "evalMs": 292.9,
+            "buildMs": 762,
             "outBytes": 44114,
             "locCode": 41,
             "locConfig": 5,
@@ -2123,34 +2123,34 @@
           },
           "samples": {
             "inp:sort": [
-              336,
-              336,
-              376
+              376,
+              416,
+              368
             ],
             "resp:sort": [
-              4.1,
-              6.8,
-              8.6
+              5.4,
+              9.5,
+              7.6
             ],
             "inp:sort-toggle": [
-              384,
-              368,
-              424
+              432,
+              472,
+              432
             ],
             "resp:sort-toggle": [
-              1.7,
-              1.1,
-              2.1
+              2,
+              1.4,
+              1.3
             ],
             "inp:filter": [
-              120,
-              120,
-              152
+              136,
+              136,
+              128
             ],
             "resp:filter": [
-              1.3,
-              1.8,
-              2.3
+              1.7,
+              2.4,
+              1.9
             ],
             "inp:status": [
               16,
@@ -2158,39 +2158,39 @@
               16
             ],
             "resp:status": [
-              1.2,
-              3.6,
-              3.2
+              1.7,
+              2.9,
+              1.2
             ],
             "updateMs": [
-              2.4,
-              2.2,
-              2.7
+              2.6,
+              2.3,
+              2.4
             ],
             "inp": [
-              384,
-              368,
-              424
+              432,
+              472,
+              432
             ],
             "resp": [
-              4.1,
-              6.8,
-              8.6
+              5.4,
+              9.5,
+              7.6
             ],
             "heapMb": [
               4.18,
               4.18,
-              4.179
+              4.18
             ],
             "score": [
-              99,
-              99,
-              98
+              96,
+              96,
+              96
             ],
             "lcp": [
-              1210.7,
-              1207.7,
-              1209.2
+              750.8,
+              751.1,
+              1211.9
             ],
             "cls": [
               0.013,
@@ -2198,14 +2198,14 @@
               0.013
             ],
             "tbt": [
-              113,
-              115,
-              141
+              211,
+              221,
+              230
             ],
             "evalMs": [
-              187.9,
-              190.1,
-              218.1
+              286.3,
+              292.9,
+              294.3
             ]
           }
         }
@@ -2226,83 +2226,83 @@
           "approach": "server-rendered per request, chat island",
           "served": "server",
           "metrics": {
-            "jsBr:chat": 51931,
-            "htmlBr:chat": 8824,
-            "jsBr": 51931,
-            "htmlBr": 8824,
-            "ttft": 106.9,
-            "streamMs": 2094.6,
+            "jsBr:chat": 51927,
+            "htmlBr:chat": 8823,
+            "jsBr": 51927,
+            "htmlBr": 8823,
+            "ttft": 100.9,
+            "streamMs": 2099.6,
             "inp:type-streaming": 136,
-            "resp:type-streaming": 1.4,
+            "resp:type-streaming": 2.1,
             "inp:toggle-tool": 24,
-            "resp:toggle-tool": 1.3,
+            "resp:toggle-tool": 2.5,
             "inp": 136,
-            "resp": 1.7,
+            "resp": 2.9,
             "heapMb": 3,
             "score": 100,
-            "lcp": 1055.9,
+            "lcp": 1054.7,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 77.8,
-            "ttfb": 2.5,
-            "htmlMs": 2.6,
-            "p50": 14,
-            "p99": 40,
-            "vps": 576.8,
+            "evalMs": 104.6,
+            "ttfb": 3.2,
+            "htmlMs": 3.4,
+            "p50": 19,
+            "p99": 49,
+            "vps": 443.2,
             "reqsPerView": 1,
-            "ttfc": 49.3,
-            "streamTotal": 2054.2,
-            "buildMs": 4742,
-            "outBytes": 398405,
+            "ttfc": 50.5,
+            "streamTotal": 2054.7,
+            "buildMs": 6070,
+            "outBytes": 398387,
             "locCode": 35,
             "locConfig": 16,
             "loc": 51
           },
           "samples": {
             "ttft": [
-              106.9,
-              110.7,
-              100.5
+              100.6,
+              101.8,
+              100.9
             ],
             "streamMs": [
-              2108.5,
-              2094.6,
-              2084.2
+              2099.6,
+              2101,
+              2085.3
             ],
             "inp:type-streaming": [
-              112,
+              136,
               136,
               136
             ],
             "resp:type-streaming": [
-              1.7,
-              1.3,
-              1.4
+              2.1,
+              2.9,
+              1.3
             ],
             "inp:toggle-tool": [
-              32,
+              24,
               24,
               24
             ],
             "resp:toggle-tool": [
-              1.2,
-              1.3,
-              1.7
+              3.8,
+              2.1,
+              2.5
             ],
             "inp": [
-              112,
+              136,
               136,
               136
             ],
             "resp": [
-              1.7,
-              1.3,
-              1.7
+              3.8,
+              2.9,
+              2.5
             ],
             "heapMb": [
-              2.999,
               3,
-              3
+              3,
+              2.999
             ],
             "score": [
               100,
@@ -2310,9 +2310,9 @@
               100
             ],
             "lcp": [
-              1055.9,
-              1053.7,
-              1056.1
+              1058.1,
+              1054,
+              1054.7
             ],
             "cls": [
               0,
@@ -2325,34 +2325,34 @@
               0
             ],
             "evalMs": [
-              82.7,
-              75.6,
-              77.8
+              111.7,
+              100.1,
+              104.6
             ],
             "ttfb": [
-              3.1,
-              2.5,
-              2.4
+              3.5,
+              3.2,
+              3.2
             ],
             "htmlMs": [
-              3.2,
-              2.6,
-              2.5
+              3.6,
+              3.4,
+              3.3
             ],
             "p50": [
-              16,
-              14,
-              14
+              20,
+              19,
+              19
             ],
             "p99": [
-              42,
-              38,
-              40
+              49,
+              50,
+              49
             ],
             "vps": [
-              520.2,
-              576.8,
-              579.2
+              426.2,
+              443.2,
+              447.4
             ],
             "reqsPerView": [
               1,
@@ -2360,14 +2360,14 @@
               1
             ],
             "ttfc": [
-              49.3,
-              48.8,
-              51.8
+              50.9,
+              50.5,
+              49.7
             ],
             "streamTotal": [
-              2058.4,
-              2032.9,
-              2054.2
+              2054.7,
+              2050,
+              2062.8
             ]
           }
         },
@@ -2376,78 +2376,78 @@
           "approach": "server-rendered per request, hydrated",
           "served": "server",
           "metrics": {
-            "jsBr:chat": 30427,
-            "htmlBr:chat": 10393,
-            "jsBr": 30427,
-            "htmlBr": 10393,
-            "ttft": 104.1,
-            "streamMs": 2103.2,
-            "inp:type-streaming": 112,
-            "resp:type-streaming": 3.3,
+            "jsBr:chat": 30428,
+            "htmlBr:chat": 10443,
+            "jsBr": 30428,
+            "htmlBr": 10443,
+            "ttft": 108.3,
+            "streamMs": 2092.8,
+            "inp:type-streaming": 104,
+            "resp:type-streaming": 1.5,
             "inp:toggle-tool": 24,
-            "resp:toggle-tool": 2.6,
-            "inp": 112,
-            "resp": 5,
+            "resp:toggle-tool": 1.5,
+            "inp": 104,
+            "resp": 1.5,
             "heapMb": 2.989,
             "score": 100,
-            "lcp": 1205.7,
+            "lcp": 1207,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 77.6,
-            "ttfb": 2.4,
-            "htmlMs": 2.5,
-            "p50": 15,
-            "p99": 38,
-            "vps": 568.8,
+            "evalMs": 106.5,
+            "ttfb": 2.9,
+            "htmlMs": 3,
+            "p50": 18,
+            "p99": 47,
+            "vps": 459.8,
             "reqsPerView": 1,
-            "ttfc": 48.3,
-            "streamTotal": 2056,
-            "buildMs": 3425,
-            "outBytes": 170446,
+            "ttfc": 49.8,
+            "streamTotal": 2058,
+            "buildMs": 4328,
+            "outBytes": 170450,
             "locCode": 37,
             "locConfig": 14,
             "loc": 51
           },
           "samples": {
             "ttft": [
-              112.2,
-              104.1,
-              81.9
+              118.6,
+              96.6,
+              108.3
             ],
             "streamMs": [
-              2112.4,
-              2103.2,
-              2082.6
+              2088.1,
+              2095,
+              2092.8
             ],
             "inp:type-streaming": [
-              112,
-              136,
-              104
+              104,
+              104,
+              136
             ],
             "resp:type-streaming": [
-              3.3,
-              5,
-              1.1
+              1.5,
+              2.3,
+              1.2
             ],
             "inp:toggle-tool": [
-              24,
+              32,
               24,
               24
             ],
             "resp:toggle-tool": [
-              2.6,
-              1.2,
-              7.9
+              1.5,
+              1.7,
+              1.2
             ],
             "inp": [
-              112,
-              136,
-              104
+              104,
+              104,
+              136
             ],
             "resp": [
-              3.3,
-              5,
-              7.9
+              1.5,
+              2.3,
+              1.2
             ],
             "heapMb": [
               2.989,
@@ -2460,9 +2460,9 @@
               100
             ],
             "lcp": [
-              1205.7,
-              1203.5,
-              1208.3
+              1207.3,
+              1206,
+              1207
             ],
             "cls": [
               0,
@@ -2475,34 +2475,34 @@
               0
             ],
             "evalMs": [
-              81.8,
-              77.6,
-              75.3
+              110.3,
+              106.5,
+              93.7
             ],
             "ttfb": [
-              2.7,
-              2.4,
-              2.3
+              3.3,
+              2.9,
+              2.8
             ],
             "htmlMs": [
-              2.9,
-              2.5,
-              2.4
+              3.5,
+              3,
+              2.9
             ],
             "p50": [
-              15,
-              15,
-              14
+              19,
+              18,
+              18
             ],
             "p99": [
-              38,
-              40,
-              38
+              52,
+              46,
+              47
             ],
             "vps": [
-              557.2,
-              568.8,
-              580
+              432.6,
+              468,
+              459.8
             ],
             "reqsPerView": [
               1,
@@ -2510,14 +2510,14 @@
               1
             ],
             "ttfc": [
-              49.1,
-              48.3,
-              48
+              51.5,
+              49.8,
+              49.1
             ],
             "streamTotal": [
-              2060.9,
-              2056,
-              2041.8
+              2060.5,
+              2047.3,
+              2058
             ]
           }
         },
@@ -2530,29 +2530,29 @@
             "htmlBr:chat": 10113,
             "jsBr": 14018,
             "htmlBr": 10113,
-            "ttft": 99.3,
-            "streamMs": 2097.3,
-            "inp:type-streaming": 104,
-            "resp:type-streaming": 1.5,
+            "ttft": 95.1,
+            "streamMs": 2084.5,
+            "inp:type-streaming": 136,
+            "resp:type-streaming": 1.2,
             "inp:toggle-tool": 24,
-            "resp:toggle-tool": 1.9,
-            "inp": 104,
-            "resp": 1.9,
-            "heapMb": 2.435,
+            "resp:toggle-tool": 2.8,
+            "inp": 136,
+            "resp": 2.8,
+            "heapMb": 2.436,
             "score": 100,
-            "lcp": 1053.7,
+            "lcp": 1054.2,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 26.8,
-            "ttfb": 1.7,
-            "htmlMs": 1.7,
-            "p50": 9,
-            "p99": 17,
-            "vps": 1024.8,
+            "evalMs": 34.2,
+            "ttfb": 2,
+            "htmlMs": 2.1,
+            "p50": 12,
+            "p99": 23,
+            "vps": 775.8,
             "reqsPerView": 1,
-            "ttfc": 45.3,
-            "streamTotal": 2055.2,
-            "buildMs": 1653,
+            "ttfc": 46.3,
+            "streamTotal": 2062.4,
+            "buildMs": 2048,
             "outBytes": 38304,
             "locCode": 27,
             "locConfig": 11,
@@ -2560,49 +2560,49 @@
           },
           "samples": {
             "ttft": [
-              99.3,
-              111.1,
-              80.5
+              95.1,
+              98.6,
+              93.5
             ],
             "streamMs": [
-              2097.3,
-              2112,
-              2063.1
+              2092.4,
+              2084.5,
+              2079.7
             ],
             "inp:type-streaming": [
               104,
-              104,
+              136,
               136
             ],
             "resp:type-streaming": [
-              1.4,
-              1.6,
-              1.5
+              1.7,
+              1.2,
+              1.1
             ],
             "inp:toggle-tool": [
               24,
               24,
-              16
+              24
             ],
             "resp:toggle-tool": [
-              1.9,
-              1.5,
-              2.6
+              2.8,
+              3.4,
+              2.5
             ],
             "inp": [
               104,
-              104,
+              136,
               136
             ],
             "resp": [
-              1.9,
-              1.6,
-              2.6
+              2.8,
+              3.4,
+              2.5
             ],
             "heapMb": [
+              2.45,
               2.435,
-              2.432,
-              2.435
+              2.436
             ],
             "score": [
               100,
@@ -2610,9 +2610,9 @@
               100
             ],
             "lcp": [
-              1056.6,
-              1053.7,
-              1053.2
+              1054.8,
+              1053.3,
+              1054.2
             ],
             "cls": [
               0,
@@ -2625,34 +2625,34 @@
               0
             ],
             "evalMs": [
-              31.8,
-              26.8,
-              26.3
+              34.2,
+              39,
+              31.1
             ],
             "ttfb": [
-              1.7,
-              1.7,
-              1.7
+              2,
+              1.9,
+              2.1
             ],
             "htmlMs": [
-              1.8,
-              1.7,
-              1.7
+              2.1,
+              2,
+              2.2
             ],
             "p50": [
-              10,
-              9,
-              8
+              13,
+              12,
+              11
             ],
             "p99": [
-              17,
-              18,
-              17
+              22,
+              23,
+              23
             ],
             "vps": [
-              950.4,
-              1024.8,
-              1043.8
+              704.8,
+              775.8,
+              790
             ],
             "reqsPerView": [
               1,
@@ -2660,14 +2660,14 @@
               1
             ],
             "ttfc": [
-              45.3,
-              45.2,
-              45.7
+              46.3,
+              46.1,
+              51.5
             ],
             "streamTotal": [
-              2068.2,
-              2055.2,
-              2049.2
+              2062.4,
+              2029.3,
+              2072.3
             ]
           }
         },
@@ -2680,29 +2680,29 @@
             "htmlBr:chat": 8395,
             "jsBr": 19613,
             "htmlBr": 8395,
-            "ttft": 90.1,
-            "streamMs": 2073,
-            "inp:type-streaming": 120,
-            "resp:type-streaming": 2.1,
+            "ttft": 103.6,
+            "streamMs": 2085.6,
+            "inp:type-streaming": 104,
+            "resp:type-streaming": 2,
             "inp:toggle-tool": 24,
-            "resp:toggle-tool": 1.6,
-            "inp": 120,
-            "resp": 2.1,
+            "resp:toggle-tool": 3,
+            "inp": 104,
+            "resp": 3,
             "heapMb": 2.513,
-            "score": 99,
-            "lcp": 1681.4,
+            "score": 100,
+            "lcp": 1051.9,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 25.5,
-            "ttfb": 1,
-            "htmlMs": 1.1,
-            "p50": 5,
-            "p99": 12,
-            "vps": 1707.6,
+            "evalMs": 32.1,
+            "ttfb": 1.3,
+            "htmlMs": 1.4,
+            "p50": 6,
+            "p99": 14,
+            "vps": 1421.4,
             "reqsPerView": 1,
-            "ttfc": 42.5,
-            "streamTotal": 2028.9,
-            "buildMs": 378,
+            "ttfc": 42.7,
+            "streamTotal": 2029.1,
+            "buildMs": 429,
             "outBytes": 61068,
             "locCode": 41,
             "locConfig": 16,
@@ -2710,24 +2710,24 @@
           },
           "samples": {
             "ttft": [
-              98.3,
-              90.1,
-              83.6
+              103.6,
+              98.7,
+              108.8
             ],
             "streamMs": [
-              2084,
-              2073,
-              2066.7
+              2085.6,
+              2080.8,
+              2090.8
             ],
             "inp:type-streaming": [
-              136,
-              120,
-              104
+              104,
+              104,
+              136
             ],
             "resp:type-streaming": [
-              2.1,
-              1.5,
-              6.7
+              1.3,
+              2.3,
+              2
             ],
             "inp:toggle-tool": [
               24,
@@ -2735,34 +2735,34 @@
               24
             ],
             "resp:toggle-tool": [
-              1.1,
+              4.8,
               1.6,
-              5.1
+              3
             ],
             "inp": [
-              136,
-              120,
-              104
+              104,
+              104,
+              136
             ],
             "resp": [
-              2.1,
-              1.6,
-              6.7
+              4.8,
+              2.3,
+              3
             ],
             "heapMb": [
-              2.497,
+              2.513,
               2.513,
               2.513
             ],
             "score": [
-              99,
               100,
-              99
+              100,
+              100
             ],
             "lcp": [
-              1682.1,
-              1052,
-              1681.4
+              1053.8,
+              1051.8,
+              1051.9
             ],
             "cls": [
               0,
@@ -2775,34 +2775,34 @@
               0
             ],
             "evalMs": [
-              27.6,
-              25.2,
-              25.5
+              31,
+              32.1,
+              33.1
             ],
             "ttfb": [
-              1.1,
-              1,
-              1
+              1.6,
+              1.2,
+              1.3
             ],
             "htmlMs": [
-              1.2,
-              1,
-              1.1
+              1.7,
+              1.3,
+              1.4
             ],
             "p50": [
-              5,
-              5,
-              5
+              6,
+              6,
+              6
             ],
             "p99": [
-              12,
-              12,
-              11
+              15,
+              14,
+              14
             ],
             "vps": [
-              1615.8,
-              1733.4,
-              1707.6
+              1375.2,
+              1421.4,
+              1446.4
             ],
             "reqsPerView": [
               1,
@@ -2810,14 +2810,14 @@
               1
             ],
             "ttfc": [
-              43.3,
-              42.5,
-              42.2
+              42.7,
+              42.7,
+              43.3
             ],
             "streamTotal": [
-              2034.7,
-              2028.9,
-              2027.2
+              2029.8,
+              2028.4,
+              2029.1
             ]
           }
         },
@@ -2830,29 +2830,29 @@
             "htmlBr:chat": 10319,
             "jsBr": 37943,
             "htmlBr": 10319,
-            "ttft": 102.1,
-            "streamMs": 2084.5,
+            "ttft": 97.5,
+            "streamMs": 2083.8,
             "inp:type-streaming": 136,
-            "resp:type-streaming": 1.7,
+            "resp:type-streaming": 2.2,
             "inp:toggle-tool": 24,
-            "resp:toggle-tool": 2.8,
+            "resp:toggle-tool": 6.1,
             "inp": 136,
-            "resp": 2.8,
+            "resp": 6.1,
             "heapMb": 3.098,
             "score": 100,
-            "lcp": 1209.3,
+            "lcp": 1209.4,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 74.1,
-            "ttfb": 2.7,
-            "htmlMs": 2.8,
-            "p50": 17,
-            "p99": 30,
-            "vps": 529.6,
+            "evalMs": 92.3,
+            "ttfb": 3.3,
+            "htmlMs": 3.5,
+            "p50": 23,
+            "p99": 34,
+            "vps": 411.4,
             "reqsPerView": 1,
-            "ttfc": 49.8,
-            "streamTotal": 2063.3,
-            "buildMs": 1111,
+            "ttfc": 51.3,
+            "streamTotal": 2049.4,
+            "buildMs": 1372,
             "outBytes": 125023,
             "locCode": 40,
             "locConfig": 6,
@@ -2860,44 +2860,44 @@
           },
           "samples": {
             "ttft": [
-              104.2,
-              85.2,
-              102.1
+              86.2,
+              97.5,
+              101.1
             ],
             "streamMs": [
-              2106.4,
-              2084.5,
-              2084.5
+              2086.1,
+              2081.5,
+              2083.8
             ],
             "inp:type-streaming": [
+              104,
               136,
-              112,
               136
             ],
             "resp:type-streaming": [
-              1.7,
-              1.7,
-              1.2
+              2.2,
+              6.9,
+              1.4
             ],
             "inp:toggle-tool": [
               24,
-              32,
-              16
+              24,
+              24
             ],
             "resp:toggle-tool": [
-              2.9,
-              2.8,
-              1.6
+              2,
+              6.2,
+              6.1
             ],
             "inp": [
+              104,
               136,
-              112,
               136
             ],
             "resp": [
-              2.9,
-              2.8,
-              1.6
+              2.2,
+              6.9,
+              6.1
             ],
             "heapMb": [
               3.098,
@@ -2910,9 +2910,9 @@
               100
             ],
             "lcp": [
-              1210.6,
-              1209.3,
-              1207.1
+              1210.9,
+              1209.4,
+              1208.2
             ],
             "cls": [
               0,
@@ -2925,34 +2925,34 @@
               0
             ],
             "evalMs": [
-              78.4,
-              67.9,
-              74.1
+              92.3,
+              95.6,
+              89.4
             ],
             "ttfb": [
-              3.6,
-              2.7,
-              2.4
+              3.8,
+              3.3,
+              3.1
             ],
             "htmlMs": [
-              3.7,
-              2.8,
-              2.5
+              3.9,
+              3.5,
+              3.2
             ],
             "p50": [
-              20,
-              17,
-              17
+              24,
+              23,
+              22
             ],
             "p99": [
-              30,
-              30,
-              29
+              34,
+              34,
+              36
             ],
             "vps": [
-              479.6,
-              529.6,
-              543.4
+              387,
+              411.4,
+              421.8
             ],
             "reqsPerView": [
               1,
@@ -2961,13 +2961,13 @@
             ],
             "ttfc": [
               51.3,
-              49.8,
-              46.1
+              45.4,
+              51.4
             ],
             "streamTotal": [
-              2071.9,
-              2059.2,
-              2063.3
+              2047.8,
+              2061.6,
+              2049.4
             ]
           }
         },
@@ -2980,21 +2980,21 @@
             "htmlBr:chat": 171,
             "jsBr": 14288,
             "htmlBr": 171,
-            "ttft": 97.2,
-            "streamMs": 2091.3,
-            "inp:type-streaming": 112,
-            "resp:type-streaming": 1.3,
+            "ttft": 90.6,
+            "streamMs": 2076.6,
+            "inp:type-streaming": 136,
+            "resp:type-streaming": 1.9,
             "inp:toggle-tool": 24,
-            "resp:toggle-tool": 2.4,
-            "inp": 112,
-            "resp": 2.7,
+            "resp:toggle-tool": 1.5,
+            "inp": 136,
+            "resp": 1.9,
             "heapMb": 3.037,
             "score": 100,
-            "lcp": 1058.3,
+            "lcp": 1060.3,
             "cls": 0,
-            "tbt": 38,
-            "evalMs": 54,
-            "buildMs": 599,
+            "tbt": 74,
+            "evalMs": 80.1,
+            "buildMs": 732,
             "outBytes": 40802,
             "locCode": 41,
             "locConfig": 5,
@@ -3002,44 +3002,44 @@
           },
           "samples": {
             "ttft": [
-              91.7,
-              97.2,
-              105.7
+              82.7,
+              90.6,
+              94.2
             ],
             "streamMs": [
-              2091.3,
-              2096.5,
-              2088.7
+              2065.3,
+              2089.4,
+              2076.6
             ],
             "inp:type-streaming": [
-              112,
-              96,
+              136,
+              136,
               136
             ],
             "resp:type-streaming": [
-              1.2,
-              2.7,
-              1.3
+              2.6,
+              1.3,
+              1.9
             ],
             "inp:toggle-tool": [
               24,
-              32,
-              16
+              24,
+              24
             ],
             "resp:toggle-tool": [
-              2.4,
+              1.5,
               1.4,
-              6
+              1.7
             ],
             "inp": [
-              112,
-              96,
+              136,
+              136,
               136
             ],
             "resp": [
-              2.4,
-              2.7,
-              6
+              2.6,
+              1.4,
+              1.9
             ],
             "heapMb": [
               3.037,
@@ -3052,9 +3052,9 @@
               100
             ],
             "lcp": [
-              1059.5,
-              1058.2,
-              1058.3
+              1060.3,
+              754.5,
+              1064.3
             ],
             "cls": [
               0,
@@ -3062,14 +3062,14 @@
               0
             ],
             "tbt": [
-              44,
-              37,
-              38
+              70,
+              86,
+              74
             ],
             "evalMs": [
-              59.1,
-              54,
-              53.4
+              71.9,
+              80.1,
+              84.3
             ]
           }
         }
@@ -3090,43 +3090,43 @@
           "approach": "prerendered, server islands for the personal bits, ogygia router",
           "served": "server",
           "metrics": {
-            "jsBr:home": 40979,
-            "htmlBr:home": 1288,
-            "jsBr:product": 41411,
-            "htmlBr:product": 1337,
-            "jsBr": 41195,
-            "htmlBr": 1313,
-            "personalMs": 938,
+            "jsBr:home": 40948,
+            "htmlBr:home": 1299,
+            "jsBr:product": 41380,
+            "htmlBr:product": 1339,
+            "jsBr": 41164,
+            "htmlBr": 1319,
+            "personalMs": 1062.8,
             "inp:add": 16,
-            "resp:add": 110.9,
+            "resp:add": 122.7,
             "inp": 16,
-            "resp": 110.9,
-            "navMs": 112.2,
-            "visitBr": 80186,
-            "heapMb": 3.532,
+            "resp": 122.7,
+            "navMs": 126.4,
+            "visitBr": 80185,
+            "heapMb": 3.53,
             "score": 100,
-            "lcp": 754.7,
+            "lcp": 758.2,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 68.1,
-            "ttfb": 0.9,
-            "htmlMs": 1,
-            "p50": 2,
-            "p99": 6,
-            "vps": 2077.9,
+            "evalMs": 96.3,
+            "ttfb": 0.6,
+            "htmlMs": 0.7,
+            "p50": 3,
+            "p99": 8,
+            "vps": 1515.7,
             "reqsPerView": 2,
             "cacheable": 1,
-            "buildMs": 5289,
-            "outBytes": 1083723,
+            "buildMs": 6774,
+            "outBytes": 1084079,
             "locCode": 85,
             "locConfig": 16,
             "loc": 101
           },
           "samples": {
             "personalMs": [
-              938,
-              941.9,
-              931.2
+              1062.8,
+              1023.6,
+              1079.3
             ],
             "inp:add": [
               16,
@@ -3134,9 +3134,9 @@
               16
             ],
             "resp:add": [
-              110.6,
-              111.3,
-              110.9
+              122.7,
+              120.2,
+              124.4
             ],
             "inp": [
               16,
@@ -3144,34 +3144,34 @@
               16
             ],
             "resp": [
-              110.6,
-              111.3,
-              110.9
+              122.7,
+              120.2,
+              124.4
             ],
             "navMs": [
-              109.3,
-              113.7,
-              112.2
+              128.8,
+              126.4,
+              114.2
             ],
             "visitBr": [
-              80186,
-              80186,
-              80186
+              80185,
+              80185,
+              80185
             ],
             "heapMb": [
               3.531,
-              3.532,
-              3.532
+              3.53,
+              3.53
             ],
             "score": [
               100,
-              99,
+              100,
               100
             ],
             "lcp": [
-              754.4,
-              1686.8,
-              754.7
+              758.2,
+              755.1,
+              763
             ],
             "cls": [
               0,
@@ -3184,34 +3184,34 @@
               0
             ],
             "evalMs": [
-              68.1,
-              68.6,
-              68
+              82.1,
+              96.3,
+              97.9
             ],
             "ttfb": [
-              1.2,
-              0.5,
-              0.9
+              1.1,
+              0.6,
+              0.6
             ],
             "htmlMs": [
-              1.3,
-              0.5,
-              1
+              1.2,
+              0.7,
+              0.6
             ],
             "p50": [
-              2,
-              2,
+              3,
+              3,
               2
             ],
             "p99": [
-              6,
-              6,
-              6
+              9,
+              8,
+              8
             ],
             "vps": [
-              2111.7,
-              2077.9,
-              2073.4
+              1408.7,
+              1515.7,
+              1559.7
             ],
             "reqsPerView": [
               2,
@@ -3225,43 +3225,43 @@
           "approach": "server-rendered per request with cookies, hydrated, Kit router",
           "served": "server",
           "metrics": {
-            "jsBr:home": 29529,
-            "htmlBr:home": 4525,
-            "jsBr:product": 30213,
-            "htmlBr:product": 1415,
-            "jsBr": 29871,
-            "htmlBr": 2970,
-            "personalMs": 878.4,
+            "jsBr:home": 29520,
+            "htmlBr:home": 4509,
+            "jsBr:product": 30204,
+            "htmlBr:product": 1405,
+            "jsBr": 29862,
+            "htmlBr": 2957,
+            "personalMs": 942.1,
             "inp:add": 16,
-            "resp:add": 51.6,
+            "resp:add": 52.5,
             "inp": 16,
-            "resp": 51.6,
-            "navMs": 93.3,
-            "visitBr": 42602,
+            "resp": 52.5,
+            "navMs": 104.4,
+            "visitBr": 42577,
             "heapMb": 2.865,
             "score": 100,
-            "lcp": 755.8,
+            "lcp": 759.3,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 63.9,
-            "ttfb": 1.2,
-            "htmlMs": 1.3,
-            "p50": 2,
-            "p99": 7,
-            "vps": 3010.2,
+            "evalMs": 75.2,
+            "ttfb": 1.5,
+            "htmlMs": 1.6,
+            "p50": 3,
+            "p99": 10,
+            "vps": 2274.2,
             "reqsPerView": 1,
             "cacheable": 0,
-            "buildMs": 3511,
-            "outBytes": 161375,
+            "buildMs": 4358,
+            "outBytes": 161363,
             "locCode": 66,
             "locConfig": 14,
             "loc": 80
           },
           "samples": {
             "personalMs": [
-              892.4,
-              861.4,
-              878.4
+              977.6,
+              942.1,
+              917.6
             ],
             "inp:add": [
               16,
@@ -3269,9 +3269,9 @@
               16
             ],
             "resp:add": [
-              53,
-              50.6,
-              51.6
+              52.5,
+              51.1,
+              52.6
             ],
             "inp": [
               16,
@@ -3279,23 +3279,23 @@
               16
             ],
             "resp": [
-              53,
-              50.6,
-              51.6
+              52.5,
+              51.1,
+              52.6
             ],
             "navMs": [
-              93.3,
-              93.8,
-              91.8
+              105.7,
+              102.7,
+              104.4
             ],
             "visitBr": [
-              42602,
-              42602,
-              42602
+              42577,
+              42577,
+              42577
             ],
             "heapMb": [
               2.865,
-              2.864,
+              2.865,
               2.865
             ],
             "score": [
@@ -3304,9 +3304,9 @@
               100
             ],
             "lcp": [
-              755.4,
-              755.8,
-              755.9
+              759.3,
+              759.4,
+              755.5
             ],
             "cls": [
               0,
@@ -3319,34 +3319,34 @@
               0
             ],
             "evalMs": [
-              64.4,
-              61.7,
-              63.9
+              81,
+              74.2,
+              75.2
             ],
             "ttfb": [
-              1.2,
-              1.1,
-              1.7
-            ],
-            "htmlMs": [
-              1.3,
+              1.5,
               1.2,
               1.8
             ],
+            "htmlMs": [
+              1.6,
+              1.3,
+              2.1
+            ],
             "p50": [
-              2,
-              2,
-              2
+              3,
+              3,
+              3
             ],
             "p99": [
-              7,
-              8,
-              7
+              10,
+              11,
+              10
             ],
             "vps": [
-              3009.4,
-              3010.2,
-              3045.8
+              2206.8,
+              2274.6,
+              2274.2
             ],
             "reqsPerView": [
               1,
@@ -3365,42 +3365,42 @@
           "served": "server",
           "metrics": {
             "jsBr:home": 0,
-            "htmlBr:home": 1294,
+            "htmlBr:home": 1291,
             "jsBr:product": 10426,
-            "htmlBr:product": 3060,
+            "htmlBr:product": 3057,
             "jsBr": 5213,
-            "htmlBr": 2177,
-            "personalMs": 681.5,
+            "htmlBr": 2174,
+            "personalMs": 699,
             "inp:add": 16,
-            "resp:add": 47.6,
+            "resp:add": 46.2,
             "inp": 16,
-            "resp": 47.6,
-            "navMs": 190.4,
+            "resp": 46.2,
+            "navMs": 218.5,
             "visitBr": 44211,
             "heapMb": 1.451,
             "score": 100,
-            "lcp": 753.2,
+            "lcp": 754.7,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 27.5,
+            "evalMs": 34.9,
             "ttfb": 0.7,
-            "htmlMs": 0.7,
-            "p50": 2,
-            "p99": 7,
-            "vps": 1055.3,
+            "htmlMs": 0.8,
+            "p50": 4,
+            "p99": 9,
+            "vps": 756.3,
             "reqsPerView": 3,
             "cacheable": 1,
-            "buildMs": 1865,
-            "outBytes": 482408,
+            "buildMs": 2229,
+            "outBytes": 482404,
             "locCode": 68,
             "locConfig": 12,
             "loc": 80
           },
           "samples": {
             "personalMs": [
-              680.8,
-              681.5,
-              688.7
+              695.8,
+              701.9,
+              699
             ],
             "inp:add": [
               16,
@@ -3408,9 +3408,9 @@
               16
             ],
             "resp:add": [
-              50.1,
-              47.6,
-              47
+              46.2,
+              45.4,
+              47.5
             ],
             "inp": [
               16,
@@ -3418,14 +3418,14 @@
               16
             ],
             "resp": [
-              50.1,
-              47.6,
-              47
+              46.2,
+              45.4,
+              47.5
             ],
             "navMs": [
-              193.3,
-              190.4,
-              187.7
+              231,
+              213.2,
+              218.5
             ],
             "visitBr": [
               44211,
@@ -3443,9 +3443,9 @@
               100
             ],
             "lcp": [
-              754.3,
-              752.5,
-              753.2
+              754.7,
+              753.1,
+              1356.9
             ],
             "cls": [
               0,
@@ -3458,34 +3458,34 @@
               0
             ],
             "evalMs": [
-              31.3,
-              27.5,
-              27
+              33.7,
+              43.7,
+              34.9
             ],
             "ttfb": [
               0.6,
               0.7,
-              1
+              1.8
             ],
             "htmlMs": [
-              0.6,
               0.7,
-              1.1
+              0.8,
+              1.9
             ],
             "p50": [
-              3,
-              2,
-              2
+              4,
+              4,
+              4
             ],
             "p99": [
-              6,
-              7,
-              7
+              9,
+              9,
+              9
             ],
             "vps": [
-              1002.9,
-              1055.3,
-              1061.5
+              681.1,
+              756.3,
+              761.7
             ],
             "reqsPerView": [
               3,
@@ -3505,27 +3505,27 @@
             "htmlBr:product": 1907,
             "jsBr": 7878,
             "htmlBr": 1913,
-            "personalMs": 762.9,
+            "personalMs": 744.2,
             "inp:add": 16,
-            "resp:add": 51.1,
+            "resp:add": 46.9,
             "inp": 16,
-            "resp": 51.1,
-            "navMs": 192.7,
+            "resp": 46.9,
+            "navMs": 220.8,
             "visitBr": 60550,
             "heapMb": 1.454,
             "score": 100,
-            "lcp": 751.5,
+            "lcp": 1364.1,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 26.8,
+            "evalMs": 33,
             "ttfb": 0.6,
             "htmlMs": 0.7,
-            "p50": 0,
+            "p50": 1,
             "p99": 3,
-            "vps": 3143.9,
+            "vps": 2403.1,
             "reqsPerView": 3,
             "cacheable": 1,
-            "buildMs": 387,
+            "buildMs": 480,
             "outBytes": 50387,
             "locCode": 84,
             "locConfig": 16,
@@ -3533,9 +3533,9 @@
           },
           "samples": {
             "personalMs": [
-              773.1,
-              760.3,
-              762.9
+              809.1,
+              744.2,
+              742.9
             ],
             "inp:add": [
               16,
@@ -3543,9 +3543,9 @@
               16
             ],
             "resp:add": [
-              51.1,
-              51.7,
-              50.5
+              46.7,
+              47.5,
+              46.9
             ],
             "inp": [
               16,
@@ -3553,14 +3553,14 @@
               16
             ],
             "resp": [
-              51.1,
-              51.7,
-              50.5
+              46.7,
+              47.5,
+              46.9
             ],
             "navMs": [
-              192.7,
-              194,
-              182.7
+              223,
+              211.3,
+              220.8
             ],
             "visitBr": [
               60550,
@@ -3570,7 +3570,7 @@
             "heapMb": [
               1.454,
               1.454,
-              1.454
+              1.452
             ],
             "score": [
               100,
@@ -3578,9 +3578,9 @@
               100
             ],
             "lcp": [
-              752.1,
-              751,
-              751.5
+              1366.4,
+              751.2,
+              1364.1
             ],
             "cls": [
               0,
@@ -3593,34 +3593,34 @@
               0
             ],
             "evalMs": [
-              26.7,
-              29.3,
-              26.8
+              33,
+              31.9,
+              37.2
             ],
             "ttfb": [
               1,
               0.6,
-              0.4
+              0.5
             ],
             "htmlMs": [
               1.1,
               0.7,
-              0.5
+              0.6
             ],
             "p50": [
-              0,
-              0,
-              0
+              1,
+              1,
+              1
             ],
             "p99": [
               3,
-              2,
+              3,
               3
             ],
             "vps": [
-              3143.9,
-              3188,
-              3066.8
+              2320.7,
+              2428.4,
+              2403.1
             ],
             "reqsPerView": [
               3,
@@ -3640,27 +3640,27 @@
             "htmlBr:product": 1320,
             "jsBr": 37796,
             "htmlBr": 2895,
-            "personalMs": 913.2,
+            "personalMs": 965.5,
             "inp:add": 16,
-            "resp:add": 50.8,
+            "resp:add": 51.5,
             "inp": 16,
-            "resp": 50.8,
-            "navMs": 107.7,
+            "resp": 51.5,
+            "navMs": 111.8,
             "visitBr": 52024,
-            "heapMb": 3.215,
+            "heapMb": 3.213,
             "score": 100,
-            "lcp": 1375.4,
+            "lcp": 758.8,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 65.3,
-            "ttfb": 1.5,
-            "htmlMs": 1.6,
-            "p50": 7,
-            "p99": 13,
-            "vps": 1322,
+            "evalMs": 83.1,
+            "ttfb": 1.8,
+            "htmlMs": 1.9,
+            "p50": 9,
+            "p99": 17,
+            "vps": 957.2,
             "reqsPerView": 1,
             "cacheable": 0,
-            "buildMs": 1138,
+            "buildMs": 1389,
             "outBytes": 127642,
             "locCode": 78,
             "locConfig": 6,
@@ -3668,9 +3668,9 @@
           },
           "samples": {
             "personalMs": [
-              913.2,
-              910.1,
-              938.5
+              965.5,
+              967,
+              858.2
             ],
             "inp:add": [
               16,
@@ -3678,9 +3678,9 @@
               16
             ],
             "resp:add": [
-              50.8,
-              52.8,
-              47.3
+              54,
+              51.4,
+              51.5
             ],
             "inp": [
               16,
@@ -3688,14 +3688,14 @@
               16
             ],
             "resp": [
-              50.8,
-              52.8,
-              47.3
+              54,
+              51.4,
+              51.5
             ],
             "navMs": [
-              107.7,
-              103.2,
-              108.7
+              115.7,
+              110.6,
+              111.8
             ],
             "visitBr": [
               52024,
@@ -3703,9 +3703,9 @@
               52024
             ],
             "heapMb": [
-              3.215,
-              3.215,
-              3.212
+              3.213,
+              3.216,
+              3.213
             ],
             "score": [
               100,
@@ -3713,9 +3713,9 @@
               100
             ],
             "lcp": [
-              756.4,
-              1376.2,
-              1375.4
+              758.9,
+              758,
+              758.8
             ],
             "cls": [
               0,
@@ -3728,34 +3728,34 @@
               0
             ],
             "evalMs": [
-              65.3,
-              62.9,
-              70.5
+              83.1,
+              77,
+              83.5
             ],
             "ttfb": [
-              1.6,
-              1.4,
-              1.5
+              2.3,
+              1.8,
+              1.8
             ],
             "htmlMs": [
-              1.7,
-              1.5,
-              1.6
+              2.4,
+              1.9,
+              1.9
             ],
             "p50": [
-              7,
-              7,
-              7
+              11,
+              9,
+              9
             ],
             "p99": [
-              14,
-              13,
-              12
+              18,
+              16,
+              17
             ],
             "vps": [
-              1229.8,
-              1332.6,
-              1322
+              855.8,
+              957.2,
+              976
             ],
             "reqsPerView": [
               1,
@@ -3780,21 +3780,21 @@
             "htmlBr:product": 136,
             "jsBr": 14537,
             "htmlBr": 136,
-            "personalMs": 779.1,
+            "personalMs": 814,
             "inp:add": 16,
-            "resp:add": 53.1,
+            "resp:add": 50.8,
             "inp": 16,
-            "resp": 53.1,
-            "navMs": 46.9,
+            "resp": 50.8,
+            "navMs": 53.1,
             "visitBr": 18954,
             "heapMb": 2.495,
             "score": 100,
-            "lcp": 1510.9,
+            "lcp": 752,
             "cls": 0,
             "tbt": 0,
-            "evalMs": 35.9,
+            "evalMs": 47.4,
             "cacheable": 1,
-            "buildMs": 612,
+            "buildMs": 752,
             "outBytes": 41946,
             "locCode": 86,
             "locConfig": 5,
@@ -3802,9 +3802,9 @@
           },
           "samples": {
             "personalMs": [
-              793.2,
-              777,
-              779.1
+              814,
+              918.8,
+              804.9
             ],
             "inp:add": [
               16,
@@ -3812,9 +3812,9 @@
               16
             ],
             "resp:add": [
-              53.1,
-              52.2,
-              55.2
+              52.6,
+              42.8,
+              50.8
             ],
             "inp": [
               16,
@@ -3822,14 +3822,14 @@
               16
             ],
             "resp": [
-              53.1,
-              52.2,
-              55.2
+              52.6,
+              42.8,
+              50.8
             ],
             "navMs": [
-              47,
-              46.9,
-              46.4
+              53.1,
+              52.6,
+              54.5
             ],
             "visitBr": [
               18954,
@@ -3839,7 +3839,7 @@
             "heapMb": [
               2.495,
               2.495,
-              2.495
+              2.494
             ],
             "score": [
               100,
@@ -3847,9 +3847,9 @@
               100
             ],
             "lcp": [
-              1510.9,
-              1517.9,
-              751.5
+              752,
+              751.2,
+              1063.8
             ],
             "cls": [
               0,
@@ -3862,9 +3862,9 @@
               0
             ],
             "evalMs": [
-              37.2,
-              35.5,
-              35.9
+              47.4,
+              45.5,
+              49.1
             ]
           }
         }
